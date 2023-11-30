@@ -7,8 +7,11 @@ Step 1: Install Required Packages
 pip install Django requests
 
 Step 2: Create a new Django project and app
+
 django-admin startproject currency_converter_project
+
 cd currency_converter_project
+
 python manage.py startapp converter
 
 Step 3: Update settings.py
